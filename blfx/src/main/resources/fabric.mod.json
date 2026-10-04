@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "betterlookingeffects",
+  "version": "${version}",
+  "name": "Betterlooking Effects",
+  "description": "Client-side: hide effects or change their displayed tier/duration in the HUD and inventory. GUI on Right Shift.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.mykhaylo.effectcustomizer.EffectCustomizerClient"] },
+  "mixins": ["betterlookingeffects.mixins.json"],
+  "depends": { "fabricloader": ">=0.18.0", "minecraft": "1.21.11", "java": ">=21", "fabric-api": "*" }
+}

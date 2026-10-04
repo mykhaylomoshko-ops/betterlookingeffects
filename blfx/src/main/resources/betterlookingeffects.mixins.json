@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.mykhaylo.effectcustomizer.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["InGameHudMixin", "StatusEffectsDisplayMixin"],
+  "injectors": { "defaultRequire": 0 }
+}
